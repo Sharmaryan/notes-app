@@ -3,7 +3,7 @@ import "./Sidebar.css";
 import { Link } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { BiLabel, BiArchiveIn, BiTrash, BiUser } from "react-icons/bi";
-const Sidebar = () => {
+export const Sidebar = () => {
   return (
     <div className="sidebar">
       <ul>
@@ -53,4 +53,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+

@@ -3,7 +3,8 @@ import "./Note.css";
 import { AiOutlinePushpin } from "react-icons/ai";
 import { IoColorPaletteOutline } from "react-icons/io5";
 import { BiLabel, BiArchiveIn, BiTrash } from "react-icons/bi";
-const Note = () => {
+
+export const Note = () => {
   return (
     <div className="notes">
       <div className="notes-content">
@@ -32,4 +33,3 @@ const Note = () => {
   );
 };
 
-export default Note;

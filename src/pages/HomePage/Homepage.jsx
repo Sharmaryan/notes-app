@@ -1,8 +1,7 @@
 import React from "react";
 import './Homepage.css'
-import SearchBar from "../../Components/SearchBar/SearchBar";
-import Note from "../../Components/Note/Note";
-const Homepage = () => {
+import {Note, SearchBar} from '../../Components/index'
+export const Homepage = () => {
   return (
     <div className="homepage">
     <SearchBar/>
@@ -13,4 +12,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+

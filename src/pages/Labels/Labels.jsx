@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Labels = () => {
+export const Labels = () => {
   return (
     <div>Labels</div>
   )
 }
 
-export default Labels

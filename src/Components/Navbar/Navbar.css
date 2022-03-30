@@ -3,18 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --primary-color: rgba(36, 36, 211, 0.808);
+    --secondary-color: azure;
+}
+
 .navbar{
     height: 5rem;
-    background-color: rgba(36, 36, 211, 0.808);
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
 }
 .navbar-heading{
     width: 12rem;
-    color: azure;
+    color: var(--secondary-color);
 }
 .dark-mode{
-    color: white;
+    color: var(--secondary-color);
     font-size: 2rem;
     margin-left: auto;
     margin-right: 2rem; 

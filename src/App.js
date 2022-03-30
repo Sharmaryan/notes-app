@@ -1,13 +1,9 @@
 import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
-import Sidebar from "./Components/Sidebar/Sidebar";
-import Navbar from "./Components/Navbar/Navbar";
-import Homepage from "./pages/HomePage/Homepage";
-import Archive from "./pages/Archive/Archive";
-import Trash from "./pages/Trash/Trash";
-import Profile from "./pages/Profile/Profile";
-import Labels from "./pages/Labels/Labels";
+
+import { Navbar, Sidebar } from "./Components/index";
+import { Archive, Trash, Profile, Homepage, Labels } from "./pages/index";
 
 function App() {
   return (

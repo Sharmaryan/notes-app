@@ -1,3 +1,8 @@
+:root{
+    --primary-color: rgba(36, 36, 211, 0.808);
+    --secondary-color: azure;
+}
+
 .sidebar {
   width: 13rem;
   height: 15rem;
@@ -25,8 +30,8 @@
   font-size: 1.3rem;
 }
 .sidebar-btn {
-  background-color: rgba(36, 36, 211, 0.808);
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   width: 100%;
   border: none;
   padding: 1rem 1.5rem;
@@ -37,5 +42,5 @@
 
 .sidebar-icons:hover,
 .sidebar-link:hover {
-  color: rgba(36, 36, 211, 0.808);
+  color: var(--primary-color);
 }

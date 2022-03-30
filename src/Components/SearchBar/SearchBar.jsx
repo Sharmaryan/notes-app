@@ -1,7 +1,7 @@
 import React from 'react'
 import './SearchBar.css'
 import { BiSearch, BiFilter } from "react-icons/bi";
-const SearchBar = () => {
+export const SearchBar = () => {
   return (
     <div className='searchbar'>
       <form className='searchbar-items'>
@@ -13,4 +13,3 @@ const SearchBar = () => {
   );
 }
 
-export default SearchBar
