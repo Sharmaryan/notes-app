@@ -1,0 +1,25 @@
+.sidebar {
+  width: 13rem;
+  height: 15rem;
+}
+.sidebar-items {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+.sidebar-text {
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+.sidebar-icons {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.sidebar-text,
+.sidebar-icons {
+  font-size: 1.3rem;
+}
+.sidebar-items:hover {
+  background-color: rgba(36, 36, 211, 0.808);
+  cursor: pointer;
+}
