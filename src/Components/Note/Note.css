@@ -1,0 +1,27 @@
+.notes {
+  border: 1px solid black;
+  width: 60%;
+  margin-top: 1rem;
+  display: flex;
+}
+.notes-content {
+  text-align: left;
+}
+.notes-icons {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+.icons-bottom {
+  margin-top: auto;
+}
+.icons {
+  font-size: 1rem;
+}
+.icons-top{
+     text-align: right;
+     margin-right: 1rem;
+}
+.icon-bottom {
+  margin-right: 1rem;
+}
