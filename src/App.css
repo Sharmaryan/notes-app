@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: rgba(36, 36, 211, 0.808);
+    --secondary-color: azure;
+}
 .App {
   text-align: center;
 }
