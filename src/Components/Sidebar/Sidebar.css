@@ -1,0 +1,41 @@
+.sidebar {
+  width: 13rem;
+  height: 15rem;
+}
+.sidebar-items {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  cursor: pointer;
+}
+.sidebar-text {
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+.sidebar-link {
+  text-decoration: none;
+  color: black;
+}
+.sidebar-icons {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.sidebar-text,
+.sidebar-icons {
+  font-size: 1.3rem;
+}
+.sidebar-btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 100%;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sidebar-icons:hover,
+.sidebar-link:hover {
+  color: var(--primary-color);
+}

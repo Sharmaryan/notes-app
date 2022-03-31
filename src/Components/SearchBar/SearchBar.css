@@ -1,0 +1,16 @@
+.searchbar-items{
+    border: 2px solid black;
+    width: 60%;
+    display: flex;
+    height: 2rem;
+    align-items: center ;
+}
+.searchbar-input{
+    border: none;
+    margin-left: 1rem;
+    outline: none;
+    width: 80%;
+}
+.icon-filter{
+    margin-left: auto   ;
+}

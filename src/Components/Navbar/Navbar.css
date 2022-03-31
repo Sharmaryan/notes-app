@@ -1,0 +1,16 @@
+.navbar{
+    height: 5rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+.navbar-heading{
+    width: 12rem;
+    color: var(--secondary-color);
+}
+.dark-mode{
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: 2rem; 
+}
