@@ -9,7 +9,7 @@ export const Sidebar = () => {
       <ul>
         <li className="sidebar-items">
           <span className="sidebar-text">
-            <Link to="/" className="sidebar-link">
+            <Link to="/home" className="sidebar-link">
               home
             </Link>
           </span>{" "}
